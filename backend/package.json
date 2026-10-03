@@ -1,0 +1,43 @@
+{
+  "name": "smart-manufacturing-backend",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Smart Manufacturing Operations Dashboard Backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "rimraf dist && tsc",
+    "start": "node dist/server.js",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "enterprise",
+    "smart-manufacturing",
+    "express",
+    "typescript",
+    "mssql",
+    "socket.io"
+  ],
+  "author": "Enterprise Architecture Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "msnodesqlv8": "^5.2.3",
+    "mssql": "^11.0.1",
+    "winston": "^3.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/mssql": "^9.1.5",
+    "@types/node": "^20.14.9",
+    "rimraf": "^5.0.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}
