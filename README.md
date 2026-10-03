@@ -686,10 +686,12 @@ The platform is designed to provide:
 # 👥 Authors
 
 **Dhanusiya Sri M**
+
 **Arunadevi M**
+
 **Anline Pranetha P**
 
-**B.E. Computer Science & Engineering**
+**B.E. Computer Science & Engineering**,
 **Sri Venkateswara College of Engineering**
 
 ---
